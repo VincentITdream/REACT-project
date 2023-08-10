@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { Container, Button, Card, CardContent, Typography } from '@mui/material';
 
 const CatDisplay = () => {
