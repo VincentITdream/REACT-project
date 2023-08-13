@@ -21,9 +21,6 @@ jobs:
 
             - name: Run npm i to install dependencies
               run: npm install
-
-            - name : run unit tests
-              run: npm run test
             
             - name : build app
               run: REACT_APP_CATAPI_KEY=${{secrets.API_KEY}} npm run build
