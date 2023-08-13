@@ -1,8 +1,9 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePage from '../HomePage';
 import CatDisplay from '../CatDisplay';
-import AdoptPage from '../AdoptPage';
+import AdoptPage from '../Adopt'
+import PageNotFound from '../PageNotFound';
 
 const App = () => {
   return (
@@ -10,8 +11,8 @@ const App = () => {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/display" element={<CatDisplay />} />
-        <Route path="/adoptPage" element={<AdoptPage />} />
-        
+        <Route path="/adopt" element={<AdoptPage />} />
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
     </Router>
   );

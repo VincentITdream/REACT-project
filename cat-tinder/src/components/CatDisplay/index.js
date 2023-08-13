@@ -1,6 +1,6 @@
-import  { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
 import { Container, Button, Card, CardContent, Typography } from '@mui/material';
+import { Link } from 'react-router-dom';
 
 const CatDisplay = () => {
   const [catImage, setCatImage] = useState('');
@@ -60,7 +60,7 @@ const CatDisplay = () => {
           </CardContent>
         </Card>
         <Button variant="contained" color="primary" style={{ marginTop: '20px', marginRight: '10px' }}>
-          Like
+          <Link to="/adopt">I like this one, I want one!</Link>
         </Button>
         <Button
           variant="contained"
