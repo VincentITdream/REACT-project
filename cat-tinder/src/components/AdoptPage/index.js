@@ -20,7 +20,7 @@ const AdoptPage = () => {
         My wife is a bit scare to animals but after meeting Doupi. She no longer afraid of animals now.
         We hope you will consider to adopt a cat instead purchasing it. But we know sometimes it is not that easy to adopt a cat so if you really love cat or a specific breed. You can still purchase it.
         Please consider and reconsider before you decided to have a cat. They really hate moving home and changing owners.
-        Some cats will even die because they don't get use to the new environment. I have attached some cute photos for Doupi. Hope you would met a cute like him in your life! 
+        Some cats will even die because they don't get use to the new environment. I have attached some cute photos for Doupi. Hope you would met a cute cat like him in your life! 
 
         </Typography>
         <Box display="flex" justifyContent="center">
