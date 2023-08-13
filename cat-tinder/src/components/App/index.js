@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePage from '../HomePage';
 import CatDisplay from '../CatDisplay';
-import AdoptPage from '../Adopt'
+import AdoptPage from '../AdoptPage';
 import PageNotFound from '../PageNotFound';
 
 const App = () => {
