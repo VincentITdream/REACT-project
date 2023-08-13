@@ -6,7 +6,9 @@ const HomePage = () => {
   return (
     <Container maxWidth="sm" style={{ textAlign: 'center', marginTop: '50px' }}>
       <Typography variant="h5" style={{ fontFamily: 'cursive', fontSize: '34px', marginBottom: '20px' }}>
+
         Welcome to Cat Lovers' Home
+
       </Typography>
       <img
         src="https://cataas.com/cat/says/hello"
