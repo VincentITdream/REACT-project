@@ -59,9 +59,11 @@ const CatDisplay = () => {
             <Typography variant="body2">{breedDescription}</Typography>
           </CardContent>
         </Card>
-        <Button variant="contained" color="primary" style={{ marginTop: '20px', marginRight: '10px' }}>
-          <Link to="/adopt">I like this one, I want one!</Link>
+        <Link to="/adopt" onKeyDown={(event) => event.key === 'Enter' && event.currentTarget.click()}>
+        <Button variant="contained" color="primary" style={{ marginTop: '20px', marginRight: '20px' }}>
+          I like this one! 
         </Button>
+      </Link>
         <Button
           variant="contained"
           color="secondary"

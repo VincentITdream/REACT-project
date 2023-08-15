@@ -16,7 +16,7 @@ const HomePage = () => {
       <Typography variant="h5" style={{ fontFamily: 'cursive', fontSize: '24px', marginBottom: '20px' }}>
         This website is designed for cat lovers or someone is ready to falling in love with cats.
       </Typography>
-      <Link to="/display">
+      <Link to="/display" onKeyDown={(event) => event.key === 'Enter' && event.currentTarget.click()}>
         <Button variant="contained" color="primary" style={{ marginTop: '20px' }}>
           Let's see some cats
         </Button>
@@ -26,3 +26,7 @@ const HomePage = () => {
 };
 
 export default HomePage;
+
+
+
+
